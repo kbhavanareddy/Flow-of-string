@@ -23,7 +23,7 @@ startBtn.onclick = function(){
     rightValue = rightIn.value;
 
     leftLoop = setInterval(function () {
-        var left1 = leftValue.lenght;
+        var left1 = leftValue.length;
 
             if(left1!= 0) {
                 rightValue = rightValue + leftValue.slice (0,1);
